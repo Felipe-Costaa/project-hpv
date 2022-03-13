@@ -1,11 +1,11 @@
-header{
+header {
     background-color: rgb(235, 200, 180);
     position: fixed;
     width: 100%;
     z-index: 1;
 }
 
-.menu{
+.menu {
     margin: 0px 10px;
     display: inline-block;
 }
@@ -17,57 +17,86 @@ header{
     margin: 6px 0;
 }
 
-h1{
+h1 {
     text-align: center;
     display: inline;
     position: absolute;
     left: 42%;
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 2em;
+    color: rgb(80, 0, 0);
+    font-family: Arial;
 }
 
-body{
+.canto_sup {
+    display: inline;
+    position: relative;
+}
+
+body {
     background-color: rgb(250, 240, 240);
     padding: 0px;
 }
 
-div{
+div {
     text-align: center;
 }
 
-.imagem_principal{
+main {
+    position: relative;
+}
+
+.imagem_principal,
+.roda_icones {
+    position: relative;
+    top: 10vh;
+    width: 100%;
+}
+
+#utero {
     width: 60%;
     height: auto;
-    text-align: center;
-    top: 200px;
+    bottom: 50%;
 }
 
-.roda_icones{
+.roda_icones {
     position: 0 50%;
 }
 
-.icone{
+.icone {
     width: 100px;
     height: 100px;
 }
 
-.topicos {
+.canto_inf {
+    display: block;
+    text-align: right;
     position: absolute;
     top: 100%;
+    right: 0%;
 }
 
-#fatores_de_risco{
+.topicos {
+    position: absolute;
+    top: 100vh;
+}
+
+#o_que_é_HPV {
+    position: relative;
+}
+
+#fatores_de_risco {
     position: absolute;
     top: 200%;
 }
 
-footer{
-    position: fixed; 
-    bottom: 0%; 
+footer {
+    position: fixed;
+    bottom: 0%;
     right: 0%;
 }
 
-.logo_univas{
+.logo_univas {
     width: 50px;
     height: 50px;
 }
