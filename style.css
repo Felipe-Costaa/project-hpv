@@ -1,19 +1,19 @@
 header{
-    background-color: rgb(238, 79, 132);
+    background-color: rgb(235, 200, 180);
     position: fixed;
     width: 100%;
     z-index: 1;
 }
 
 .menu{
-    margin: 0px 20px;
+    margin: 0px 10px;
     display: inline-block;
 }
 
 .linha_menu {
     width: 35px;
     height: 5px;
-    background-color: black;
+    background-color: rgb(80, 0, 0);
     margin: 6px 0;
 }
 
@@ -21,13 +21,25 @@ h1{
     text-align: center;
     display: inline;
     position: absolute;
-    left: 50%;
-
+    left: 42%;
+    font-weight: bold;
+    font-size: 2em;
 }
 
 body{
-    background-color: pink;
+    background-color: rgb(250, 240, 240);
     padding: 0px;
+}
+
+div{
+    text-align: center;
+}
+
+.imagem_principal{
+    width: 60%;
+    height: auto;
+    text-align: center;
+    top: 200px;
 }
 
 .roda_icones{
@@ -46,7 +58,7 @@ body{
 
 #fatores_de_risco{
     position: absolute;
-    top: 600%;
+    top: 200%;
 }
 
 footer{
