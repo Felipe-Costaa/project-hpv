@@ -1,0 +1,61 @@
+header{
+    background-color: rgb(238, 79, 132);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.menu{
+    margin: 0px 20px;
+    display: inline-block;
+}
+
+.linha_menu {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+h1{
+    text-align: center;
+    display: inline;
+    position: absolute;
+    left: 50%;
+
+}
+
+body{
+    background-color: pink;
+    padding: 0px;
+}
+
+.roda_icones{
+    position: 0 50%;
+}
+
+.icone{
+    width: 100px;
+    height: 100px;
+}
+
+.topicos {
+    position: absolute;
+    top: 100%;
+}
+
+#fatores_de_risco{
+    position: absolute;
+    top: 600%;
+}
+
+footer{
+    position: fixed; 
+    bottom: 0%; 
+    right: 0%;
+}
+
+.logo_univas{
+    width: 50px;
+    height: 50px;
+}
