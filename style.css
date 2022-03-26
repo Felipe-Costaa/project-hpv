@@ -107,9 +107,13 @@ h1 {
     z-index: 5;
 }
 
+footer {
+    position: fixed;
+    top: 92%;
+    right: 2%;
+}
+
 #logo_univas {
-    position: absolute;
-    top: 100%;
-    left: 100%;
-    width: 100%;
+    width: 70px;
+    height: 70px;
 }
