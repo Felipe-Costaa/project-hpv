@@ -1,102 +1,108 @@
-header {
-    background-color: rgb(235, 200, 180);
+body {
+    font-family: 'PT Sans', sans-serif;
+    background-color: rgb(255, 225, 225);
+}
+
+#menu {
+    width: 35px;
+    height: 30px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.bar {
+    height: 5px;
+    width: 100%;
+    background-color: rgb(90, 0, 0);
+    display: block;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+#bar1 {
+    transform: translateY(-4px);
+}
+
+#bar3 {
+    transform: translateY(4px);
+}
+
+.nav li a {
+    color: rgb(200, 80, 80);
+    text-decoration: none;
+    text-align: center;
+}
+
+.nav li a:hover {
+    font-weight: bold;
+}
+
+.nav li {
+    list-style: none;
+    padding: 16px 0;
+}
+
+.nav {
+    padding: 0;
+    margin: 0 20px;
+    transition: 0.3s ease;
+    display: none;
+}
+
+.menu-bg,
+#menu-bar {
+    top: 0;
+    left: 0;
     position: fixed;
     width: 100%;
+    background-color: rgb(255, 200, 200);
+    text-align: center;
+}
+
+.menu-bg {
     z-index: 1;
+    width: 0;
+    height: 0;
+    margin: 30px 0 20px 20px;
+    border-radius: 50%;
+    transition: 0.3s ease;
 }
 
-.menu {
-    margin: 0px 10px;
-    display: inline-block;
+#menu-bar {
+    z-index: 2;
 }
 
-.linha_menu {
-    width: 35px;
-    height: 5px;
-    background-color: rgb(80, 0, 0);
-    margin: 6px 0;
+.change .bar {
+    background-color: rgb(90, 0, 0);
 }
 
-h1 {
-    text-align: center;
-    display: inline;
-    position: absolute;
-    left: 42%;
-    font-weight: bolder;
-    font-size: 2em;
-    color: rgb(80, 0, 0);
-    font-family: Arial;
+.change #bar1 {
+    transform: translateY(4px) rotateZ(-45deg);
 }
 
-.canto_sup {
-    display: inline;
-    position: relative;
+.change #bar3 {
+    transform: translateY(-6px) rotate(45deg);
 }
 
-body {
-    background-color: rgb(250, 240, 240);
-    padding: 0px;
+.change #bar2 {
+    opacity: 0;
 }
 
-div {
-    text-align: center;
-}
-
-main {
-    position: relative;
-}
-
-.imagem_principal,
-.roda_icones {
-    position: relative;
-    top: 10vh;
-    width: 100%;
-}
-
-#utero {
-    width: 60%;
-    height: auto;
-    bottom: 50%;
-}
-
-.roda_icones {
-    position: 0 50%;
-}
-
-.icone {
-    width: 100px;
-    height: 100px;
-}
-
-.canto_inf {
+.change {
     display: block;
-    text-align: right;
-    position: absolute;
-    top: 100%;
-    right: 0%;
 }
 
-.topicos {
-    position: absolute;
-    top: 100vh;
-}
-
-#o_que_é_HPV {
-    position: relative;
-}
-
-#fatores_de_risco {
+p {
     position: absolute;
     top: 200%;
 }
 
-footer {
+h1 {
     position: fixed;
-    bottom: 0%;
-    right: 0%;
-}
-
-.logo_univas {
-    width: 50px;
-    height: 50px;
+    left: 45%;
+    top: 15px;
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(90, 0, 0);
+    z-index: 5;
 }

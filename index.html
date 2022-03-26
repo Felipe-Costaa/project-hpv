@@ -5,88 +5,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project-HPV</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="reset.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
-        <div class="menu">
-            <div class="linha_menu"></div>
-            <div class="linha_menu"></div>
-            <div class="linha_menu"></div>
+        <div id="menu-bar">
+            <div id="menu" onclick="onClickMenu()">
+                <div id="bar1" class="bar"></div>
+                <div id="bar2" class="bar"></div>
+                <div id="bar3" class="bar"></div>
+            </div>
+            <ul class="nav" id="nav">
+                <li><a href="#">O que é HPV?</a></li>
+                <li><a href="#">Fatores de risco</a></li>
+                <li><a href="#">Sinais e sintomas</a></li>
+                <li><a href="#">Prevenção</a></li>
+                <li><a href="#">Papanicolau</a></li>
+                <li><a href="#">Tratamento</a></li>
+            </ul>
         </div>
-        <h1>HPV</h1>
+        <div class="menu-bg" id="menu-bg">
+        </div>
     </header>
+
+
+
     <main>
-        <div class="canto_sup">
-            <img src="src/img/canto superior.png">
-        </div>
-
-        <div class="imagem_principal">
-            <img src="src/img/utero.png" id="utero">
-        </div>
-
-        <div class="roda_icones">
-            <img src="src/img/ALERTA.png" alt="" class="icone">
-            <img src="src/img/ESTETO.png" alt="" class="icone">
-            <img src="src/img/INTERROGAÇÃO.png" alt="" class="icone">
-            <img src="src/img/LUVA.png" alt="" class="icone">
-            <img src="src/img/MULHER.png" alt="" class="icone">
-            <img src="src/img/PROTEÇÃO.png" alt="" class="icone">
-        </div>
-
-        <div class="canto_inf">
-            <img src="src/img/canto inferior.png" alt="">
-        </div>
-
-        <div class="topicos">
-            <div id="o_que_é_HPV">
-                <h2 class="subtítulo">O que é HPV?</h2>
-                <p>O HPV é o causador da doença denominada condiloma acuminado conhecida popularmente como verruga genital ou crita de galo (NAGAKAWA et al, 2010)</p>
-                <p>É considerada uma Doença sexualemnte transmissível (DST)podendo, portanto, afetar também o parceiro sexual.
-                </p>
-                <p>Ela é transmitida pelo Papiloma vírus humano, que tem relação com 90% dos casos de Câncer de colo uterino no mundo. Este câncer é o segundo que mais afeta as mulheres brasileiras de acordo com o Inca .</p>
-            </div>
-            <div id="fatores_de_risco">
-                <h2 class="subtítulo">Fatores de risco para desenvolvimento do câncer do colo uterino</h2>
-                <ul>
-                    <li>
-                        <p>Infecção pelo Papiloma vírus humano (HPV)</p>
-                    </li>
-                    <li>
-                        <p>Início precoce da vida sexual</p>
-                    </li>
-                    <li>
-                        <p>Multipilcidade de parceiros sexuais</p>
-                    </li>
-                    <li>
-                        <p>Tabagismo, diretamente relacionado à quantidade de cigarros fumados</p>
-                    </li>
-                    <li>
-                        <p>Baixa condição socioeconômica</p>
-                    </li>
-                    <li>
-                        <p>Imunissupressão</p>
-                    </li>
-                    <li>
-                        <p>Uso prolongado de anticoncepcionais orais</p>
-                    </li>
-                    <li>
-                        <p>Higiene íntima inadequada</p>
-                    </li>
-                </ul>
-
-            </div>
-        </div>
-
+        <h1>HPV</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus assumenda commodi, ullam perspiciatis odit expedita, omnis saepe ab autem quod, incidunt porro provident beatae voluptatum officiis sunt? Sint, iure quia? Lorem ipsum dolor sit
+            amet consectetur, adipisicing elit. Fuga, et? Expedita magnam aut totam minus minima quidem esse odio quisquam cupiditate corrupti, consequatur soluta vel sint, molestias, eveniet adipisci voluptatem. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. A, dolorum saepe id quas et optio aperiam quis tenetur asperiores, quos, earum velit nihil cupiditate. Aperiam facilis iusto ad officiis molestias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi id quas
+            obcaecati! Aut et commodi quisquam nisi sapiente autem quibusdam. Impedit facere sint veniam dignissimos veritatis repellendus. Enim, consequuntur laudantium!
+        </p>
     </main>
     <footer>
-        <img src="src/img/Logo univás.jpg.png" alt="Logo Univás" class="logo_univas">
     </footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
