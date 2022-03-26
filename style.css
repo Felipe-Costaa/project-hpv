@@ -59,15 +59,6 @@ body {
     text-align: center;
 }
 
-.menu-bg {
-    z-index: 1;
-    width: 0;
-    height: 0;
-    margin: 30px 0 20px 20px;
-    border-radius: 50%;
-    transition: 0.3s ease;
-}
-
 #menu-bar {
     z-index: 2;
 }
@@ -105,6 +96,10 @@ h1 {
     font-weight: 700;
     color: rgb(90, 0, 0);
     z-index: 5;
+}
+
+#cantoCima {
+    position: absolute;
 }
 
 #imagem_principal {
@@ -157,18 +152,16 @@ h1 {
     margin-left: 43%;
 }
 
-.flexa {
+#cantoBaixo {
     position: absolute;
-    left: 50%;
-    top: 30%;
-    background: rgb(0, 0, 0);
-    transform: translate(-50%, -50%) rotateZ(-45deg);
+    bottom: 0%;
+    right: 0%;
 }
 
 footer {
     position: fixed;
     top: 92%;
-    right: 2%;
+    left: 2%;
 }
 
 #logo_univas {
