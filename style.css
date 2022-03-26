@@ -3,6 +3,12 @@ body {
     background-color: rgb(255, 225, 225);
 }
 
+.container {
+    background-color: rgb(90, 0, 0);
+    margin-bottom: 1em;
+    border-radius: 50px;
+}
+
 #menu {
     width: 35px;
     height: 30px;
@@ -28,9 +34,10 @@ body {
 }
 
 .nav li a {
-    color: rgb(200, 80, 80);
+    color: white;
     text-decoration: none;
     text-align: center;
+    font-size: 1.5rem;
 }
 
 .nav li a:hover {
