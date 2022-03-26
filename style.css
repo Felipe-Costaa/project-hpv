@@ -100,6 +100,7 @@ h1 {
 
 #cantoCima {
     position: absolute;
+    height: 20%;
 }
 
 #imagem_principal {
@@ -156,6 +157,7 @@ h1 {
     position: absolute;
     bottom: 0%;
     right: 0%;
+    height: 20%;
 }
 
 footer {
