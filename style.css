@@ -106,3 +106,10 @@ h1 {
     color: rgb(90, 0, 0);
     z-index: 5;
 }
+
+#logo_univas {
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    width: 100%;
+}
